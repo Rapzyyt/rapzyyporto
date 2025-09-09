@@ -1,5 +1,4 @@
-/* Gaya Umum & Reset */
-:root {
+
     --bg-color: #1a1a2e;
     --text-color: #e0e0e0;
     --accent-color: #007bff; /* Biru cerah */
@@ -27,8 +26,8 @@ body {
 }
 
 h1, h2, h3 {
+    color: var(--heading-color);
     font-weight: 600;
-    color: lightblue;
 }
 
 a {
@@ -381,8 +380,4 @@ a:hover {
     .contact-form .btn-primary {
         align-self: center;
     }
-}
-
-h1 {
-  color: lightblue;
 }
